@@ -9,9 +9,9 @@ Treinador de Código Morse <br/>
 
 Esse projeto visa facilitar o aprendizado do código morse por meio de uma atividade lúdica, em que o usuário deve acertar a tradução da palavra codificada que está sendo transmitida por um LED.
 
-O usuário conecta-se ao Wi-Fi e entra no servidor web criado pelo ESP32, onde ele vai poder inserir a tradução e também reiniciar a atividade para tentar novamente.
+O usuário conecta-se ao Wi-Fi e entra no servidor web criado pelo ESP32, onde ele vai poder inserir a sua resposta e também reiniciar a atividade para tentar novamente.
 
-Após inserir a resposta, o usuário descobrirá se sua resposta está correta pela cor do LED, que irá ficar verde em caso de acerto e vermelho em caso de erro.
+Após inserir a resposta, o usuário descobrirá se sua tradução está correta pela cor do LED, que irá ficar verde em caso de acerto e vermelho em caso de erro.
 
 
 <br/>
