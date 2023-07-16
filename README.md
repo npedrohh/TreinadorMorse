@@ -61,19 +61,6 @@ Figura - Diagrama do circuito<br/>
 
 <br/>
 
-## :electric_plug: Funcionamento do sistema
-
-**Não esqueça: adicione um videozinho do sistema funcionando :)**
-
-Liste informações como:
-- requisitos do código
-- estrutura de arquivos
-- qual o objetivo de cada arquivo/pedaço de código
-Não precisa ser muito detalhado, apenas o suficiente para que seu código seja entendível!
-
-
-<br/>
-
 ## ⚙️ Funcionalidades
 
 ### Features implementadas
