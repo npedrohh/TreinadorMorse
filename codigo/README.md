@@ -169,7 +169,7 @@ def escolher_palavra(self):
 Inicializa a conexão Wi-Fi
 
 ```py
- def __init__(self):
+def __init__(self):
         esp.osdebug(None)
         gc.collect()
         self.station = network.WLAN(network.STA_IF)
