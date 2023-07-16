@@ -201,7 +201,7 @@ def web_page(self):
         return html
 ```
 
-A função `start()` é responsável por iniciar o servidor socket, aguardar a conexão de um cliente, receber as requisições HTTP, enviar a página web como resposta inicial e, em seguida, iniciar o processo de exibição do código morse e verificação das respostas.
+A função `start()` é responsável por iniciar o servidor socket, aguardar a conexão de um cliente, receber as requisições HTTP, enviar a página web como resposta inicial e, em seguida, iniciar o processo de exibição do código morse e verificação das respostas
 
 Inicialização do socket vinculado ao endereço IP local e à porta 3000. Em seguida, há a definição de um máximo de 2 conexões simultâneas
 
@@ -233,7 +233,7 @@ Por fim, a "respostaFinal" é declarada como 0 se o usuário tiver enviado uma r
             respostaFinal = None == self.extract_sugestao(request)
 ```
 
-O servidor entra em um loop, do qual apenas sairá após o usuário enviar uma resposta. Isso é feito para que uma requisição sem resposta não seja compreendida pelo programa como uma resposta errada, o que faria o LED RGB brilhar na cor vermelha.
+O servidor entra em um loop, do qual apenas sairá após o usuário enviar uma resposta. Isso é feito para que uma requisição sem resposta não seja compreendida pelo programa como uma resposta errada, o que faria o LED RGB brilhar na cor vermelha
 
 ```py
 while respostaFinal:
@@ -251,7 +251,7 @@ while respostaFinal:
                 respostaFinal = None == self.extract_sugestao(request)
 ```
 
-Por fim, é checado se a resposta enviada está correta ou não.
+Por fim, é checado se a resposta enviada está correta ou não
 
 ```py
 self.checar(self.extract_sugestao(request))
@@ -266,7 +266,7 @@ def main():
     server.start()
 ```
 
-Permite que o código seja executado apenas quando o módulo é executado diretamente como um programa principal.
+Permite que o código seja executado apenas quando o módulo é executado diretamente como um programa principal
 
 ```py
 if __name__ == "__main__":
