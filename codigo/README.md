@@ -25,7 +25,7 @@ Script executado quando a placa com MicroPython boota.
 
 ## Descrição
 
-Script principal com o programa python que será rodado. Ele é executado após o `boot.py`. Serve como servidor para receber requisições em suas funções pela página web.
+Script principal com o programa python que será rodado. Ele é executado após o `boot.py`.
 
 ## Passo a passo
 
