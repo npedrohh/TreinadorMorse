@@ -17,7 +17,7 @@ Abaixo, há uma breve descrição e explicação de cada trecho de código para 
 
 ## Descrição
 
-Script executado quando a placa com MicroPython boota. Serve para definir configurações da aplicação, como, por exemplo, quais pinos serão usados para os sensores, importação de bibliotecas e conexão da placa ao wi-fi.
+Script executado quando a placa com MicroPython boota.
 
 <br/>
 
