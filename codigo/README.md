@@ -166,7 +166,7 @@ def escolher_palavra(self):
                     brilha_vermelho()
 ```
 
-Inicializa a conexão wi-fi
+Inicializa a conexão Wi-Fi
 
 ```py
  def __init__(self):
