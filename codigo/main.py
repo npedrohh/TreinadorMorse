@@ -235,7 +235,6 @@ class ESPServer:
         gc.collect()
         self.station = network.WLAN(network.STA_IF)
         self.station.active(True)
-        self.checador = 1
         self.palavra_escolhida = None
     def connect(self, ssid, password):
         self.station.connect(ssid, password)
