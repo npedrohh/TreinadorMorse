@@ -262,7 +262,7 @@ Função principal, que dá a ordem de execução do código
 ```py
 def main():
     server = ESPServer()
-    server.connect("morse", "04130211")
+    server.connect("SSID", "password")
     server.start()
 ```
 
