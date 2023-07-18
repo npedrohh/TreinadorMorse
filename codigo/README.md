@@ -257,12 +257,12 @@ Por fim, é checado se a resposta enviada está correta ou não
 self.checar(self.extract_sugestao(request))
 ```
 
-Função principal, que dá a ordem de execução do código
+Função principal, que dá a ordem de execução do código, e onde deve ser colocado o nome e a senha da rede que o ESP32 irá se conectar
 
 ```py
 def main():
     server = ESPServer()
-    server.connect("SSID", "password")
+    server.connect("NomeDaRede", "SenhaDaRede")
     server.start()
 ```
 
